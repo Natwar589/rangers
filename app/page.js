@@ -254,7 +254,12 @@ const Page = () => {
         </div>
         <div className="flex flex-wrap justify-between gap-5 border-t border-line-strong px-6 py-5 font-mono text-[11.5px] text-soft md:px-9">
           <span>rangers — agents, models and MCP in one place</span>
-          <span>docs · status · privacy · © 2026</span>
+          <span>
+            docs · status · privacy · © 2026 ·{" "}
+            <a className="hover:text-acc" href="https://gtwy.ai" target="_blank" rel="noopener noreferrer">
+              Powered by GTWY
+            </a>
+          </span>
         </div>
       </section>
     </main>
